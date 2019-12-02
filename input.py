@@ -6,3 +6,6 @@ S,T = (input() for _ in range(2))
 
 # 同じ行の区切られた文字列を整数にmapして変数に代入
 A, B = map(int, input().split())
+
+# 改行ありの文字列をlistに格納
+T = list(int(input()) for _ in range(N))
