@@ -20,3 +20,9 @@ print(ans)
 # listと文字列の変換
 S = list(S)
 S = "".join(S)
+
+# list交換
+S[l - 1], S[r -1] = S[r - 1], S[l - 1]
+
+# 左からl番目とr番目までをひっくり返す
+S[l - 1 : r] = S[l - 1 : r][::-1]
