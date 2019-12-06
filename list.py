@@ -3,7 +3,8 @@ re = ""
 while re in A:
   A.remove(re)
 
-# list内の登場回数
+# list内の1番登場回数が多い要素を取得
+# まずSにある各要素を１個だけWに格納
 W = []
 for s in S:
   if s not in W:
@@ -26,3 +27,11 @@ S[l - 1], S[r -1] = S[r - 1], S[l - 1]
 
 # 左からl番目とr番目までをひっくり返す
 S[l - 1 : r] = S[l - 1 : r][::-1]
+
+# listのsort
+org_list.sort(reverse=True)
+new_list_reverse = sorted(org_list, reverse=True)
+
+# enumerate
+for i, w in enumerate (W):
+  if i != len(W) - 1:

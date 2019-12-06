@@ -7,3 +7,8 @@ mod = 10 % 3
 print(10 / 5)
 print(q)
 print(mod)
+
+
+print(s.count(ls[i]),end="")
+if i < 5:
+    print(" ",end="")
