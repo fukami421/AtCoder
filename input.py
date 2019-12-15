@@ -9,3 +9,7 @@ A, B = map(int, input().split())
 
 # 改行ありの文字列をlistに格納
 T = list(int(input()) for _ in range(N))
+
+    # print(lines[0)
+    # for i, v in enumerate(lines):
+    #     print("line[{0}]: {1}".format(i, v))
