@@ -12,8 +12,10 @@ for i, a_s in enumerate(A_S):
 len(ans_dict)
 
 # keyでsort
-sortedList = sorted(ans_dict.items())
-sortedDict = dict(sortedList)
+sortedDict = dict(sorted(ans_dict.items()))
+
+# valueでsort
+count_dic = dict(sorted(count_dic.items(), key=lambda x:x[1]))
 
 # for文
 ans = ""
