@@ -35,3 +35,6 @@ new_list_reverse = sorted(org_list, reverse=True)
 # enumerate
 for i, w in enumerate (W):
   if i != len(W) - 1:
+
+# 2次元配列
+old_list = [[0 for _ in range(n)] for _ in range(n)]
